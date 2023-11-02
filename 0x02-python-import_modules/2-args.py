@@ -9,4 +9,4 @@ if __name__ == "__main__":
         for i in range(1, size + 1):
             print("{}: {}".format(i, arguments[i]))
     if size == 0:
-        print("0: arguments.".format())
+        print("0 arguments.")
