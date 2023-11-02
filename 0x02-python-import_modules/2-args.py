@@ -12,4 +12,4 @@ if __name__ == "__main__":
         print("{} arguments.".format(size))
     else:
         print("{} arguments:".format(size))
-        print("{}: {}".format(size, arguments[i]))
+        print("{}: {}".format(size, arguments[1]))
