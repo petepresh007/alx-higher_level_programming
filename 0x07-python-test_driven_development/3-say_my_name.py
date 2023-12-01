@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-""" Printing a string """
+""" module for say_my_name """
 
 
 def say_my_name(first_name, last_name=""):
-    """
-    A function to print my name.
+    """A function to print my name.
 
     Args:
         first_name(str): first name.
