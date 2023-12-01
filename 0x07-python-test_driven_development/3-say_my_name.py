@@ -10,7 +10,7 @@ def say_my_name(first_name, last_name=""):
         first_name(str): first name
         last_name(str, optionale): last name
 
-    raise:
+    Raises:
         TypeError: first_name must be a string
         TypeError: last_name must be a string
     """
