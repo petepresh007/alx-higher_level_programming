@@ -11,8 +11,7 @@ def say_my_name(first_name, last_name=""):
         last_name(str, optional): last name.
 
     Raises:
-        TypeError: Value of first_name must be a string.
-        TypeError: Value of last_name must be a string.
+        TypeError: If first_name or last_name are not strings.
     """
 
     if not isinstance(first_name, str):
