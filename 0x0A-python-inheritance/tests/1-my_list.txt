@@ -1,11 +1,11 @@
-The ``1-my_list.py``
-===================
+The ``1-my_list`` module
+============================
 
-Using ``my_list``
------------------
+Using ``1-mylist``
+---------------------
 
 Import function from module:
-    >>> my_list = __import__('1-my_list.py').MyList
+    >>> MyList = __import__('1-my_list').MyList
 
 Correct Class Type test:
     >>> ml = MyList()
@@ -69,11 +69,7 @@ List already in order:
     [-10, 0, 1, 2, 10, 20, 100]
 
 Test append:
-    >>> my_list = MyList()
-    >>> my_list.append(1)
-    >>> my_list.append(4)
-    >>> my_list.append(2)
-    >>> my_list.append(3)
-    >>> my_list.append(5)
-    >>> print(my_list)
-    [1, 4, 2, 3, 5]
+    >>> ml = MyList()
+    >>> ml.append(10)
+    >>> ml
+    [10]
