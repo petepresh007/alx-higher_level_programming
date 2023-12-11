@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 """ base module """
 
+
 class Base:
     """ private attr """
 
     __nb_objects = 0
+
     def __init__(self, id=None):
         """ constructor """
         if id is not None:
