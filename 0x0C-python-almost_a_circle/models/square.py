@@ -44,10 +44,10 @@ class Square(Rectangle):
     def to_dictionary(self):
         """ dictionary representation of square """
         return {
-                "id":self.id,
-                "size":self.width,
-                "x":self.x,
-                "y":self.y
+                "id": self.id,
+                "size": self.width,
+                "x": self.x,
+                "y": self.y
                 }
 
     def __str__(self):
