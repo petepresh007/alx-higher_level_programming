@@ -1,3 +1,3 @@
--- describe our
--- created table
-DESCRIBE TABLE first_table;
+-- show all the 
+-- full table in your db
+SHOW CREATE TABLE `first_table`;
