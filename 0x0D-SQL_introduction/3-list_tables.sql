@@ -1,3 +1,3 @@
--- a command that shows
--- all tables in a database
-SHOW TABLES FROM mysql;
+-- a command to show
+-- tables in a dB
+SHOW TABLES;
