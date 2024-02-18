@@ -9,7 +9,7 @@ if __name__ == "__main__":
                                  passwd=sys.argv[2], db=sys.argv[3], port=3306)
     cur = connection.cursor()
     cur.execute("SELECT * FROM states WHERE name LIKE 'N%' "
-                "ORDER BY states.id ASC")
+                "ORDER BY states.id")
     result = cur.fetchall()
     for res in result:
         print(res)
