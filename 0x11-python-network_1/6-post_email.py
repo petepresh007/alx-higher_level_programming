@@ -11,5 +11,4 @@ if __name__ == "__main__":
     email = sys.argv[2]
     value = {"email": email}
     res = requests.post(url, data=value)
-    if res.status_code == 201:
-        print(res.text)
+    print(res.text)
